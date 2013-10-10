@@ -192,7 +192,7 @@
 					};				
 					
 					if(clicked) clearTimeout(timeout);
-					if(options.auto && dir=="next" && !clicked){;
+					if(options.auto){ //&& dir=="next" && !clicked){;
 						timeout = setTimeout(function(){
 							animate("next",false);
 						},diff*options.speed+options.pause);
