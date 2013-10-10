@@ -91,7 +91,7 @@
 				};
 				
 				html += options.controlsAfter;						
-				$(obj).after(html);										
+				$(obj).append(html);										
 			};
 			
 			if(options.numeric){									
