@@ -1,5 +1,7 @@
 /* Easy Slider */
 
+	#slider2{position:relative;}
+	
 	#slider ul, #slider li,
 	#slider2 ul, #slider2 li{
 		margin:0;
@@ -46,7 +48,10 @@
 	ol#controls{
 		margin:1em 0;
 		padding:0;
-		height:28px;	
+		height:28px;
+		position:absolute;
+		bottom:0;
+		left:10px
 		}
 	ol#controls li{
 		margin:0 10px 0 0; 
@@ -55,6 +60,8 @@
 		list-style:none;
 		height:28px;
 		line-height:28px;
+		display:block;
+		width:auto;
 		}
 	ol#controls li a{
 		float:left;
