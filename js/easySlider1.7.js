@@ -155,7 +155,7 @@
 							t = ts;
 							break; 
 						default:
-							t = dir;
+							t = parseInt(dir);
 							break; 
 					};	
 					var diff = Math.abs(ot-t);
